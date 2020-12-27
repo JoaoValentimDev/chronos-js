@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-*  - Version: v1.1 - River
+*  - Version: v0.1.1 - River Song
 *  - Created by: João Gabriel Theodoro
 *  - Date: 2020-12-26
 *  - changelog: bugs fix, rename of functions and propertties!
