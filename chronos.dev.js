@@ -1,5 +1,5 @@
 /*
- * Version: 1.1 - River
+ * Version: 0.1.1 - River
  * Created by: João Gabriel Theodoro
  * Date: 2020-12-26
  * changelog: bugs fix, rename of functions and propertties
