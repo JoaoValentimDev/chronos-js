@@ -33,7 +33,7 @@ const chronos = new Chronos('dd/mm/yyyy');
 console.log(chronos); // { calendar : ..., clock: ... }
 ```
 
-Já demorou um tempão para criar o esqueleto do seu relódio digital para aplicar depois o css, então deixe o Chronos fazer isso por você e o css fica por sua conta:
+Já demorou um tempão para criar o esqueleto do seu relógio digital para aplicar depois o css, então deixe o Chronos fazer isso por você e o css fica por sua conta:
 
 ```js
 Chronos.createDigitalClock().setDOMElementSelector('div#clock').showDigitalClock(); // Relógio digital: 22:22:10
