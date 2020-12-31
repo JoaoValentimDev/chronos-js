@@ -16,10 +16,6 @@ const chronos = new Chronos({
 chronos.digitalClock('.clock'); // pronto agora é só retocar
 ```
 
-Saida:
-
-![image-20201230235413757](https://lh3.google.com/u/0/d/16NXZightIJyvylCeoJm0G5aNsU3Nc7zZ=w952-h952-iv1)
-
 Mas não  é só isso, você pode colocar estilo no relógio via js. Veja:
 
 ```js 
@@ -35,10 +31,6 @@ chronos.digitalClock('.clock', {
 });
 ```
 
- Saida:
-
-![image-20201231000030800](/home/theodoro/.config/Typora/typora-user-images/image-20201231000030800.png)
-
 ### Agendador de processos do Chronos
 
 Sim o chronos possui um agendador de processos, claro, ainda em fase de desenvolvimento, mas esta funcional e você pode usa-lo como bem entender para trabalhar com processos agendados. Veja:
@@ -47,10 +39,6 @@ Sim o chronos possui um agendador de processos, claro, ainda em fase de desenvol
 const chronos = new Chronos();
 chronos.executeTask('Minha task', () => console.log(1 + 1), { seconds: 10 }); // nome, callback e tempo
 ```
-
-Saida:
-
-![image-20201231122324390](/home/theodoro/.config/Typora/typora-user-images/image-20201231122324390.png)
 
 ### O que tem mais ?
 
