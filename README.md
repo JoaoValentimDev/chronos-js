@@ -18,7 +18,7 @@ chronos.digitalClock('.clock'); // pronto agora é só retocar
 
 Saida:
 
-![image-20201230235413757](https://drive.google.com/file/d/16NXZightIJyvylCeoJm0G5aNsU3Nc7zZ/view?usp=sharing)
+![image-20201230235413757](https://lh3.google.com/u/0/d/16NXZightIJyvylCeoJm0G5aNsU3Nc7zZ=w952-h952-iv1)
 
 Mas não  é só isso, você pode colocar estilo no relógio via js. Veja:
 
