@@ -54,7 +54,7 @@ function Chronos(
         currentDate = `${time[2]}-${time[1]}-${time[0]}`;
         break;
       case 'yy-mm-dd':
-        currentDate = `${time[0].toString().slice(2)}-${month}-${day}`;
+        currentDate = `${time[0].toString().slice(2)}-${time[1]}-${time[2]}`;
         break;
       case 'dd-mm-yy':
         currentDate = `${time[2]}-${time[1]}-${time[0].toString().slice(2)}`;
@@ -78,9 +78,6 @@ function Chronos(
   };
 
   const getCalendarMonthName = (lang = 'en-US') => {
-    if (lang !== 'pt-BR' && lang !== 'en-US')
-      throw 'Language setted not exists';
-
     const monthNames = [
       lang === 'en-US' ? 'January' : lang === 'pt-BR' ? 'Janeiro' : '',
       lang === 'en-US' ? 'February' : lang === 'pt-BR' ? 'Fevereiro' : '',
@@ -100,9 +97,6 @@ function Chronos(
   };
 
   const getCalendarDayName = (lang = 'en-US') => {
-    if (lang !== 'pt-BR' && lang !== 'en-US')
-      throw 'Language setted not exists';
-
     let daysName = [
       lang === 'en-US' ? 'Sunday' : lang === 'pt-BR' ? 'Domigo' : '',
       lang === 'en-US' ? 'Monday' : lang === 'pt-BR' ? 'Segunda-feira' : '',
