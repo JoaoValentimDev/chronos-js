@@ -18,7 +18,7 @@ chronos.digitalClock('.clock'); // pronto agora é só retocar
 
 Saida:
 
-![image-20201230235413757](/home/theodoro/.config/Typora/typora-user-images/image-20201230235413757.png)
+![image-20201230235413757](https://drive.google.com/file/d/16NXZightIJyvylCeoJm0G5aNsU3Nc7zZ/view?usp=sharing)
 
 Mas não  é só isso, você pode colocar estilo no relógio via js. Veja:
 
