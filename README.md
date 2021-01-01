@@ -32,6 +32,10 @@ chronos.digitalClock('.clock', {
 });
 ```
 
+Saida:
+
+<img src="iVBORw0KGgoAAAANSUhEUgAAATgAAABrCAYAAADjEp6HAAARFklEQVR4nO3beXRV1dkG8OeSCcGAJBIIVBKGAEEUiInMgwy2FhTqAFSgaVGq1AHUT5da0LjqYrVVhg8EFbBiRcEwOODwKYZhgVCZRCYxWAmhaAIkQBIwgSTv98fL6bnn3pvk3pAQs" />
+
 ### Agendador de processos do Chronos
 
 Sim o chronos possui um agendador de processos, claro, ainda em fase de desenvolvimento, mas esta funcional e você pode usa-lo como bem entender para trabalhar com processos agendados. Veja:
